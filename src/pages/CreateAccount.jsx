@@ -64,12 +64,9 @@ export default function CreateAccount() {
 
   return (
     <div style={styles.screen}>
-      <div style={styles.headerRow}>
-        <h1 style={styles.heading}>
-          Create your<br />PopX account
-        </h1>
-        <div style={styles.badge}>1</div>
-      </div>
+      <h1 style={styles.heading}>
+      Create your<br />PopX account
+      </h1>
 
       <InputField
         label="Full Name"
