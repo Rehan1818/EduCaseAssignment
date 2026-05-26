@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #E8E8E8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  border-color: #7B2FF7 !important;
+  box-shadow: 0 0 0 2px rgba(123, 47, 247, 0.12);
+}
+
+button:active {
+  transform: scale(0.98);
+}
